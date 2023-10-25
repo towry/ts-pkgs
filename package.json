@@ -1,0 +1,29 @@
+{
+  "name": "ts-pkgs",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "NODE_ENV=production turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "plop": "plop"
+  },
+  "keywords": [
+    "typescript",
+    "library",
+    "monorepo"
+  ],
+  "author": "Towry Wang",
+  "license": "ISC",
+  "devDependencies": {
+    "@changesets/cli": "^2.26.2",
+    "@types/lodash": "^4.14.200",
+    "cross-env": "^7.0.3",
+    "plop": "^4.0.0",
+    "rimraf": "^5.0.5",
+    "turbo": "^1.10.16"
+  }
+}
