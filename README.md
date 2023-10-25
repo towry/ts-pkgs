@@ -1,6 +1,6 @@
 # ts-pkgs
 
-monorepo to matain all my npm packages related to typescript/javascript development.
+monorepo to maintain all my npm packages related to typescript/javascript development.
 
 ## Packages
 
